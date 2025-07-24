@@ -1,0 +1,103 @@
+* {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.page-title {
+  background-color: #268ba2ff;
+  color: white;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.student-form-wrapper {
+  background-color: #8ba8cb4e;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table th,
+.table td {
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+thead th {
+  background-color: #1f3c88;
+  color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f3f7fb;
+}
+
+.btn-edit,
+.btn-success.btn-sm {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-delete,
+.btn-danger.btn-sm {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #218838;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+.custom-btn {
+  background-color: #7b56cbff;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #5a42b1;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+  .student-form-wrapper {
+    padding: 15px;
+  }
+
+  .page-title h2 {
+    font-size: 20px;
+  }
+
+  .btn,
+  .form-control {
+    font-size: 14px;
+  }
+
+  .modal-title {
+    font-size: 16px;
+  }
+
+  .table th,
+  .table td {
+    font-size: 13px;
+    padding: 6px;
+  }
+}
